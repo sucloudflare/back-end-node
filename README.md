@@ -9,6 +9,43 @@
     <li>Senhas criptografadas com bcryptjs</li>
   </ul>
 
+  <h2>🐧 Linux/macOS – Usando <code>mkdir</code></h2>
+  <p>Cria uma nova pasta:</p>
+  <pre><code>mkdir nome-da-pasta</code></pre>
+
+  <p>Exemplo:</p>
+  <pre><code>
+mkdir src
+mkdir src/controllers
+mkdir src/routes
+mkdir src/middlewares
+mkdir src/database
+mkdir src/database/migrations
+mkdir src/validators
+  </code></pre>
+
+  <p>Se quiser criar todas as subpastas de uma vez:</p>
+  <pre><code>mkdir -p src/{controllers,routes,middlewares,database/migrations,validators}</code></pre>
+
+  <h2>🪟 Windows – Usando <code>mkdir</code> no Prompt de Comando (CMD)</h2>
+  <p>Cria uma nova pasta:</p>
+  <pre><code>mkdir nome-da-pasta</code></pre>
+
+  <p>Exemplo:</p>
+  <pre><code>
+mkdir src
+mkdir src\controllers
+mkdir src\routes
+mkdir src\middlewares
+mkdir src\database
+mkdir src\database\migrations
+mkdir src\validators
+  </code></pre>
+
+  <p>Se quiser fazer tudo com um único comando no PowerShell:</p>
+  <pre><code>mkdir src/controllers, src/routes, src/middlewares, src/database/migrations, src/validators</code></pre>
+
+
   <h2>🧱 Etapa 1 – Estrutura de Pastas e Arquivos</h2>
   <pre><code>src/
 ├── <span class="folder">controllers/</span>       → Lógica principal das requisições
