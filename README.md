@@ -107,8 +107,8 @@ npx knex migrate:make create_tasks</code></pre>
   <h2>📦 Instalação e Uso</h2>
   <ol>
     <li><strong>Clonar o projeto:</strong><br>
-      <pre><code>git clone https://github.com/seuusuario/api-tarefas-node.git
-cd api-tarefas-node</code></pre>
+      <pre><code>git clone https://github.com/sucloudflare/back-end-node.git
+cd back-end-node</code></pre>
     </li>
     <li><strong>Instalar dependências:</strong><br>
       <pre><code>npm install</code></pre>
